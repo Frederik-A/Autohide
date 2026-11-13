@@ -1,0 +1,36 @@
+LASER AUTO HIDE — MAC EN WINDOWS
+Bundel van 13 november 2026
+
+Pak de volledige ZIP uit voor je een start- of bouwscript opent.
+Dit pakket bundelt de bestaande versies; de programmacode is niet gewijzigd.
+
+MAC — helper v0.2
+Open Mac/Build.command en vervang daarna de oude app in Programma’s.
+Sluit eerst de oude helper. Geef zo nodig opnieuw Toegankelijkheid en
+Automatisering-toegang. Na één keer inschakelen blijft de helper wachten op
+volgende presentaties, ook na het herstarten van PowerPoint.
+De helper moet blijven draaien; het instellingenvenster mag dicht.
+De app wordt lokaal gebouwd met de Apple Command Line Tools.
+
+WINDOWS — PowerPoint-add-in v0.4
+Sluit PowerPoint en de losse helper. Is een eerdere add-in geïnstalleerd,
+voer dan eerst Windows-Addin/Uninstall.cmd uit.
+Start Windows-Addin/Install.cmd. Dit bouwt en installeert de .ppam op je pc.
+Wacht op Zelfcontrole: OK 0.4.0. Open PowerPoint en controleer het tabblad
+Laser Auto Hide. Start de show en kies de ingebouwde laser met Ctrl+L.
+De aan/uit-keuze en wachttijd worden bewaard.
+
+WINDOWS — werkende losse helper v0.3.3
+Open Windows-Helper/Start.cmd, klik Inschakelen en kies in je diavoorstelling
+de laser met Ctrl+L. Dit is de versie die jij als werkend hebt bevestigd.
+Gebruik de helper en add-in niet tegelijkertijd.
+
+TESTSTATUS
+De Windows-helper v0.3.3 is door jou als werkend bevestigd. De Mac-laserbediening
+van v0.1 is bevestigd; de nieuwste Mac v0.2 bevat ook automatisch hervatten,
+waarvoor nog geen afzonderlijke bevestiging is ontvangen. De Windows-add-in
+v0.4 is gebaseerd op de werkende helper, maar de installatie en visuele werking
+moeten nog op jouw PowerPoint worden bevestigd. Het pakket bevat broncode en
+start-/bouwscripts, geen vooraf gebouwde Mac-app of .ppam.
+
+Elke map bevat een eigen LEESMIJ.md met installatie, beperkingen en diagnose.

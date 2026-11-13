@@ -1,0 +1,30 @@
+LASER AUTO HIDE — MAC AND WINDOWS
+Bundle dated 13 November 2026
+
+Extract the entire ZIP before opening any launch or build script.
+This package bundles the existing versions; the program code has not changed.
+
+MAC — helper v0.2
+Open Mac/Build.command, then replace the old app in Applications.
+Quit the old helper first. If prompted, grant Accessibility and Automation
+permissions again. Once enabled, the helper waits for subsequent slide shows,
+even after PowerPoint is closed and reopened.
+Keep the helper running; you can close its settings window.
+The app is built locally using Apple's Command Line Tools.
+
+WINDOWS — working standalone helper v0.3.3
+Open Windows-Helper/Start.cmd, click "Inschakelen" (Enable), and activate the
+laser pointer in your slide show with Ctrl+L. This is the version you confirmed
+was working.
+Do not run the helper and the add-in at the same time.
+
+TEST STATUS
+You confirmed that Windows helper v0.3.3 works. You also confirmed the Mac
+laser control in v0.1; the latest Mac version, v0.2, adds automatic resuming,
+which has not yet been separately confirmed. Windows add-in v0.4 is based on
+the working helper, but its installation and visual behavior still need to be
+confirmed in your PowerPoint setup. This package contains source code and
+launch/build scripts, not a prebuilt Mac app or .ppam file.
+
+Each folder contains its own LEESMIJ.md with installation instructions,
+limitations, and diagnostic information. Those documents remain in Dutch.
